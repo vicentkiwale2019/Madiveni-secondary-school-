@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Madiveni Secondary School</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #f5f7f6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #075e3c, #15915f);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+    }
+
+    nav {
+      background: #043d28;
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    section h2 {
+      color: #075e3c;
+      margin-bottom: 20px;
+      font-size: 30px;
+    }
+
+    .cards {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      flex: 1;
+      min-width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      color: #075e3c;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      background: white;
+      border-radius: 10px;
+      margin-bottom: 40px;
+    }
+
+    footer {
+      background: #043d28;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 30px;
+      }
+
+      nav a {
+        display: block;
+        margin: 8px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Madiveni Secondary School</h1>
+    <p>Education for Better Life.</p>
+    <p>Same, Mbakweni, Kilimanjaro</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#academics">Academics</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Madiveni Secondary School</h2>
+
+    <p>
+      Welcome to the official website of Madiveni Secondary School.
+      Our school is committed to providing quality education and
+      developing responsible, disciplined and knowledgeable students
+      for a better life.
+    </p>
+  </section>
+
+  <section id="about">
+    <h2>About Our School</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Our Motto</h3>
+        <p>Education for Better Life.</p>
+      </div>
+
+      <div class="card">
+        <h3>Location</h3>
+        <p>
+          Same, Mbakweni,
+          Kilimanjaro, Tanzania.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Our Goal</h3>
+        <p>
+          To provide quality education and prepare
+          students for a successful future.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="academics">
+    <h2>Academics</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Teaching and Learning</h3>
+        <p>
+          We promote effective teaching and active
+          learning among our students.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Student Development</h3>
+        <p>
+          Students are encouraged to develop knowledge,
+          discipline, creativity and practical skills.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>School Community</h3>
+        <p>
+          We encourage cooperation between students,
+          teachers, parents and the community.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+
+    <p><strong>School:</strong> Madiveni Secondary School</p>
+
+    <p>
+      <strong>Location:</strong>
+      Same, Mbakweni, Kilimanjaro, Tanzania
+    </p>
+
+    <p>
+      <strong>Phone:</strong>
+      <a href="tel:+255718755344">
+        0718 755344
+      </a>
+    </p>
+
+    <p>
+      <strong>Email:</strong>
+      <a href="mailto:madivenisecondary@gmail.com">
+        madivenisecondary@gmail.com
+      </a>
+    </p>
+  </section>
+
+  <footer>
+    <p>
+      © 2026 Madiveni Secondary School.
+      All Rights Reserved.
+    </p>
+
+    <p>Education for Better Life.</p>
+  </footer>
+
+</body>
+</html>
